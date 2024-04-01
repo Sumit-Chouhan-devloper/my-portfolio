@@ -24,7 +24,7 @@ const Contacts = () => {
           </div>
           <div className="w-full sm:w-6/12 mt-7 sm:mt-0">
             <div className="sm:flex justify-end">
-              <div className="border border-[#ABB2BF] p-4 group  hover:bg-[#959b9b6c] transition-all duration-300">
+              <div className="border border-[#ABB2BF] p-4 group  transition-all duration-300">
                 <p className="text-[16px] ff_fira font-semibold text-white">
                   Message me here
                 </p>

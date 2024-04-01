@@ -1,6 +1,12 @@
-import projects_img from "../../assets/images/png/chert NOde.png"
-import projects_img2 from "../../assets/images/png/Protect.png";
-import projects_img3 from "../../assets/images/png/kahoot.png";
+import carbon_zero from "../../assets/images/webp/carbon_zero.png";
+import sprt from "../../assets/images/webp/sprt.png";
+import pixel_perfect from "../../assets/images/webp/pixel_perfect.png";
+import workup from "../../assets/images/webp/workup.png";
+import wuacoin from "../../assets/images/webp/wuacoin.png";
+import venveo from "../../assets/images/webp/venveo.png";
+import Yoomi from "../../assets/images/webp/yommi.png";
+import nrft from "../../assets/images/webp/nrft.png";
+import node_rocks from "../../assets/images/webp/node_rocks.png";
 export const navLinks = [
   { to: "/", label: "home", has: "#" },
   { to: "/project", label: "works", has: "#" },
@@ -8,49 +14,77 @@ export const navLinks = [
   { to: "/contact", label: "contacts", has: "#" },
 ];
 
-  
 export const projects = [
   {
-    img: projects_img,
-    skill: "HTML SCSS Python Flask",
-    projectsName: "ChertNodes",
+    img: Yoomi,
+    skill: "React Typescript Tailwind",
+    projectsName: "yoomi health",
+    servers: "Minecraft servers hosting",
+    btn: "Live",
+    myLink: "https://yoomi.health/",
+  },
+  {
+    img: nrft,
+    skill: "HTML Tailwind javascript",
+    projectsName: "no risk no film",
+    servers: "Discord anti-crash bot",
+    btn: "Live",
+    myLink: "https://norisknofilm.web.app/",
+  },
+  {
+    img: node_rocks,
+    skill: "HTML Tailwind jabvascript",
+    projectsName: "node rocks",
+    servers: "Get answers to your  quiz",
+    btn: "Live",
+    myLink: "https://noderokes.web.app/",
+  },
+  {
+    img: carbon_zero,
+    skill: "HTML Bootstrap javascript",
+    projectsName: "carbon zero",
+    servers: " Discord anti-crash bot",
+    btn: "Live",
+    myLink: "https://carben-zero.web.app/",
+  },
+  {
+    img: sprt,
+    skill: "HTML Bootstrap javascript",
+    projectsName: "Sprt",
     servers: " Minecraft servers hosting",
     btn: "Live",
+    myLink: "https://sprt-6da25.web.app/",
   },
   {
-    img: projects_img2,
-    skill: "HTML SCSS Python Flask",
-    projectsName: "ProtectX",
+    img: pixel_perfect,
+    skill: "Next Tailwind",
+    projectsName: "pixel perfect",
     servers: " Discord anti-crash bot",
     btn: "Live",
+    myLink: "https://pixel-perfect-nine.vercel.app/",
   },
   {
-    img: projects_img3,
-    skill: "HTML SCSS Python Flask",
-    projectsName: "Kahoot Answers Viewer",
-    servers: "Get answers to your kahoot quiz",
+    img: workup,
+    skill: "React Tailwind",
+    projectsName: "carbon zero",
+    servers: "Superpower your business finance",
     btn: "Live",
+    myLink: "https://work-up-react.web.app/",
   },
   {
-    img: projects_img2,
-    skill: "HTML SCSS Python Flask",
-    projectsName: "ProtectX",
-    servers: " Discord anti-crash bot",
+    img: wuacoin,
+    skill: "React Bootstrap",
+    projectsName: "Sprt",
+    servers: "The Future of E-Commerce",
     btn: "Live",
+    myLink: "https://wuacoin-13b62.web.app/",
   },
   {
-    img: projects_img,
-    skill: "HTML SCSS Python Flask",
-    projectsName: "ChertNodes",
-    servers: " Minecraft servers hosting",
+    img: venveo,
+    skill: "Html vite Tailwind",
+    projectsName: "pixel perfect",
+    servers: "Discord anti-crash bot",
     btn: "Live",
-  },
-  {
-    img: projects_img2,
-    skill: "HTML SCSS Python Flask",
-    projectsName: "ProtectX",
-    servers: " Discord anti-crash bot",
-    btn: "Live",
+    myLink: "https://venveo-html-vite.web.app/",
   },
 ];
-

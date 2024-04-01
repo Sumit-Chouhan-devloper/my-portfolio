@@ -61,7 +61,7 @@ const Projects = () => {
                 <span className="text-[#C778DD]">#</span>projects
               </h2>
               <a
-                href="#"
+                href="/project"
                 className="text-white font-medium ff_fira text-[16px] flex items-center"
               >
                 View all
@@ -79,20 +79,20 @@ const Projects = () => {
                     <p className=" ff_fira text-[#ABB2BF] py-2 px-2 border-b border-b-[#ABB2BF]">
                       {index.skill}
                     </p>
-                    <h2 className=" py-3 sm:py-4 px-4 ff_fira font-medium text-white  max-w-[329px] text-lg sm:text-xl md:text-2xl">
+                    <h2 className=" py-3 sm:py-4 px-4 ff_fira font-medium text-white  max-w-[329px] text-lg sm:text-xl md:text-xl">
                       {index.projectsName}
                     </h2>
                     <p className=" ff_fira text-[16px] px-4 pb-3 sm:pb-4 text-[#ABB2BF]">
                       {index.servers}
                     </p>
-                    <div>
+                    <a href={index.myLink}>
                       <button className=" flex items-center mx-4 mb-4 ff_fira font-medium text-white text-[16px] border border-[#ABB2BF] py-2 px-4">
-                        Live
+                        {index.btn}
                         <span className=" ms-2">
                           <img src={arrowP} alt="arrowP" />
                         </span>
                       </button>
-                    </div>
+                    </a>
                   </div>
                 </div>
               ))}

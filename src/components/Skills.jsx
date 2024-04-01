@@ -53,7 +53,7 @@ const Skills = () => {
               <div className="mx-auto max-w-[375px] sm:max-w-[100%] sm:flex justify-between">
                 {/* ==================BOX=1=================*/}
 
-                <div className="border border-[#ABB2BF] group sm:w-[148px] h-[110px] hover:bg-[#959b9b6c] transition-all duration-300">
+                <div className="border border-[#ABB2BF] group sm:w-[148px] h-[110px]  transition-all duration-300">
                   <h3 className="text-[16px] py-2 px-3 ff_fira text-white font-medium border-b border-b-[#ABB2BF]">
                     Languages
                   </h3>
@@ -68,7 +68,7 @@ const Skills = () => {
                 </div>
                 {/* ==================BOX=2=================*/}
                 <div>
-                  <div className="border border-[#ABB2BF] group hover:bg-[#959b9b6c] transition-all duration-300 mt-4 sm:mt-0 h-[110px]">
+                  <div className="border border-[#ABB2BF] group  transition-all duration-300 mt-4 sm:mt-0 h-[110px]">
                     <h3 className="text-[16px] py-2 px-3 ff_fira text-white font-medium border-b border-b-[#ABB2BF]">
                       Other
                     </h3>
@@ -81,7 +81,7 @@ const Skills = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="border border-[#ABB2BF] mt-4 h-[110px] hover:bg-[#959b9b6c] transition-all group duration-300">
+                  <div className="border border-[#ABB2BF] mt-4 h-[110px]  transition-all group duration-300">
                     <h3 className="text-[16px] py-2 px-3 ff_fira text-white font-medium border-b border-b-[#ABB2BF]">
                       Frameworks
                     </h3>
@@ -98,7 +98,7 @@ const Skills = () => {
                 {/*================ BOX=3===================*/}
 
                 <div>
-                  <div className="mt-4 sm:mt-0 border border-[#ABB2BF] group h-[130px] hover:bg-[#959b9b6c] transition-all duration-300">
+                  <div className="mt-4 sm:mt-0 border border-[#ABB2BF] group h-[130px]  transition-all duration-300">
                     <h3 className="text-[16px] py-2 px-3 ff_fira text-white font-medium border-b border-b-[#ABB2BF]">
                       Tools
                     </h3>
@@ -117,7 +117,7 @@ const Skills = () => {
                   </div>
 
                   <div className="mt-4">
-                    <div className="border border-[#ABB2BF] group h-[130px] hover:bg-[#959b9b6c] transition-all duration-300">
+                    <div className="border border-[#ABB2BF] group h-[130px]  transition-all duration-300">
                       <h3 className="text-[16px] py-2 px-3 ff_fira text-white font-medium border-b border-b-[#ABB2BF]">
                         Library
                       </h3>

@@ -11,15 +11,35 @@ const Header = () => {
     <div className="lg:h-screen flex flex-col relative">
       <div className="fixed z-30 top-[10%] left-[2%] gap-1 hidden xl:block">
         <span className="h-[2px] w-[90px] left-[-90%] rotate-90 top-[-50%] bg-white absolute"></span>
-        <a  className="group transition-all duration-200" target="blank" href="https://github.com/sumit-chouhan-194">
+        <a
+          className="group transition-all duration-200"
+          target="blank"
+          href="https://github.com/Sumit-Chouhan-devloper"
+        >
           <img className="group-hover:scale-125" src={github} alt="discord" />
         </a>
 
-        <a className="group" target="blank" href="mailto:sumitkhan.dhana@gmail.com">
-          <img className="group-hover:scale-125 transition-all duration-200" src={Email} alt="discord" />
+        <a
+          className="group"
+          target="blank"
+          href="mailto:sumitkhan.dhana@gmail.com"
+        >
+          <img
+            className="group-hover:scale-125 transition-all duration-200"
+            src={Email}
+            alt="discord"
+          />
         </a>
-        <a className=" group" target="blank"  href="https://discord.com/users/1078548787242475631" >
-          <img className="group-hover:scale-125 transition-all duration-200" src={discord} alt="discord" />
+        <a
+          className=" group"
+          target="blank"
+          href="https://discord.com/users/1078548787242475631"
+        >
+          <img
+            className="group-hover:scale-125 transition-all duration-200"
+            src={discord}
+            alt="discord"
+          />
         </a>
       </div>
       <Nav />
@@ -36,12 +56,14 @@ const Header = () => {
             <p className="ff_fira text-[#ABB2BF] leading-[156%] py-4 mb-1 sm:py-6 lg:max-w-lg lg:pe-5">
               He crafts responsive websiteswhere technologies meet creativity
             </p>
-            <button class="group ff_fira  font-medium relative min-h-[40px] sm:min-h-[50px] w-36 sm:w-40  overflow-hidden border border-[#C778DD] bg-transparent text-white shadow-2xl transition-all before:absolute before:left-0 before:top-0 before:h-0 before:w-1/4 before:bg-[#C778DD] before:duration-500 after:absolute after:bottom-0 after:right-0 after:h-0 after:w-1/4 after:bg-[#C778DD] after:duration-500 hover:text-white hover:before:h-full hover:after:h-full">
-              <span class="top-0 flex h-full w-full items-center justify-center before:absolute before:bottom-0 before:left-1/4 before:z-0 before:h-0 before:w-1/4 before:bg-[#C778DD] before:duration-500 after:absolute after:right-1/4 after:top-0 after:z-0 after:h-0 after:w-1/4 after:bg-[#C778DD] after:duration-500 hover:text-white group-hover:before:h-full group-hover:after:h-full"></span>
-              <span class="absolute bottom-0 left-0 right-0 top-0 z-10 flex h-full w-full items-center justify-center group-hover:text-white">
-                Contact me!!
-              </span>
-            </button>
+            <a href="contact">
+              <button class="group ff_fira  font-medium relative min-h-[40px] sm:min-h-[50px] w-36 sm:w-40  overflow-hidden border border-[#C778DD] bg-transparent text-white shadow-2xl transition-all before:absolute before:left-0 before:top-0 before:h-0 before:w-1/4 before:bg-[#C778DD] before:duration-500 after:absolute after:bottom-0 after:right-0 after:h-0 after:w-1/4 after:bg-[#C778DD] after:duration-500 hover:text-white hover:before:h-full hover:after:h-full">
+                <span class="top-0 flex h-full w-full items-center justify-center before:absolute before:bottom-0 before:left-1/4 before:z-0 before:h-0 before:w-1/4 before:bg-[#C778DD] before:duration-500 after:absolute after:right-1/4 after:top-0 after:z-0 after:h-0 after:w-1/4 after:bg-[#C778DD] after:duration-500 hover:text-white group-hover:before:h-full group-hover:after:h-full"></span>
+                <span class="absolute bottom-0 left-0 right-0 top-0 z-10 flex h-full w-full items-center justify-center group-hover:text-white">
+                  Contact me!!
+                </span>
+              </button>
+            </a>
           </div>
           <div className="md:w-5/12 pt-6 sm:pt-10 md:pt-0">
             <div className="relative z-[1]">

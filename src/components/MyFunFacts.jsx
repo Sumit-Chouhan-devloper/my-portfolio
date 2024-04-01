@@ -20,42 +20,43 @@ const MyFunFacts = () => {
         <h2 className=" text-white font-medium ff_fira text-[22px] sm:text-3xl md:text-[32px] sm:text-[32px] relative">
           <span className="text-[#C778DD]">#</span>my-fun-facts
         </h2>
-        <div className=" flex flex-wrap mt-7 justify-between">
-          <div className=" lg:w-7/12">
-            <div className=" flex">
-              <p className=" border border-[#ABB2BF]  text-[13px] sm:t[16px]] ff_fira  text-[#ABB2BF] p-2">
-                I like winter more than summer
+        <div className="flex flex-wrap mt-7 justify-between">
+          <div className="lg:w-7/12">
+            <div className="flex">
+              <p className="border border-[#ABB2BF] text-[13px] sm:text-[16px] ff_fira text-[#ABB2BF] p-2">
+                I love exploring new technologies and coding challenges.
               </p>
-              <p className=" ms-4 border border-[#ABB2BF]  text-[13px] sm:t[16px] ff_fira  text-[#ABB2BF] p-2">
-                I often bike with my friends{" "}
-              </p>
-            </div>
-            <div className=" flex my-4">
-              <p className=" border border-[#ABB2BF]  text-[13px] sm:t[16px] ff_fira  text-[#ABB2BF] p-2">
-                I like <span className=" text-white">pizza</span> and{" "}
-                <span className=" text-white">pasta</span>
-              </p>
-              <p className=" ms-4 border border-[#ABB2BF]  text-[13px] sm:t[16px] ff_fira  text-[#ABB2BF] p-2">
-                I was in Egypt, Poland and Turkey
+              <p className="ms-4 border border-[#ABB2BF] text-[13px] sm:text-[16px] ff_fira text-[#ABB2BF] p-2">
+                I enjoy attending hackathons with my peers.
               </p>
             </div>
-            <div className=" flex ">
-              <p className=" border border-[#ABB2BF]  text-[13px] sm:t[16px] ff_fira  text-[#ABB2BF] p-2">
-                My favorite movie is
-                <span className=" text-white"> The Green Mile </span>
+            <div className="flex my-4">
+              <p className="border border-[#ABB2BF] text-[13px] sm:text-[16px] ff_fira text-[#ABB2BF] p-2">
+                I'm passionate about creating intuitive user interfaces.
               </p>
-              <p className=" ms-4 border border-[#ABB2BF] text-[13px] sm:t[16px] ff_fira  text-[#ABB2BF] p-2">
-                I am still in school
+              <p className="ms-4 border border-[#ABB2BF] text-[13px] sm:text-[16px] ff_fira text-[#ABB2BF] p-2">
+                I find satisfaction in solving complex problems through code.
               </p>
             </div>
-            <div className=" mt-4">
-              <p className=" inline-block border border-[#ABB2BF]  text-[13px] sm:t[16px] ff_fira  text-[#ABB2BF] p-2">
-                I don’t have any siblings
+            <div className="flex">
+              <p className="border border-[#ABB2BF] text-[13px] sm:text-[16px] ff_fira text-[#ABB2BF] p-2">
+                I enjoy collaborating with cross-functional teams to build
+                amazing products.
+              </p>
+              <p className="ms-4 border border-[#ABB2BF] text-[13px] sm:text-[16px] ff_fira text-[#ABB2BF] p-2">
+                I'm always eager to share knowledge and learn from others in the
+                tech community.
+              </p>
+            </div>
+            <div className="mt-4">
+              <p className="inline-block border border-[#ABB2BF] text-[13px] sm:text-[16px] ff_fira text-[#ABB2BF] p-2">
+                I'm a hardworking frontend developer always eager to learn new
+                things.
               </p>
             </div>
           </div>
-          <div className=" hidden lg:inline-block lg:w-3/12">
-            <img src={myFunFacts} alt="myFunFacts" className=" w-full" />
+          <div className="hidden lg:inline-block lg:w-3/12">
+            <img src={myFunFacts} alt="myFunFacts" className="w-full" />
           </div>
         </div>
       </div>

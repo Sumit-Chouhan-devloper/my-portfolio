@@ -15,7 +15,8 @@ const Footer = () => {
               to="/"
               className="ff_fira text-white font-bold flex items-center gap-2"
             >
-              <LogoIcon />Sumit-Chouhan
+              <LogoIcon />
+              Sumit-Chouhan
             </Link>
             <p className="text-[16px] ff_fira text-white mt-4">
               front-end developer
@@ -28,15 +29,27 @@ const Footer = () => {
                   Media
                 </p>
                 <div className="flex items-center mt-4">
-                  <a className="hover:scale-125 transition-all duration-200" href="https://discord.com/users/1078548787242475631" target="blank">
+                  <a
+                    className="hover:scale-125 transition-all duration-200"
+                    href="https://discord.com/users/1078548787242475631"
+                    target="blank"
+                  >
                     <img src={discord} alt="discord" />
                   </a>
 
-                  <a className="hover:scale-125 transition-all duration-200 mx-3" href="https://web.whatsapp.com/" target="blank">
+                  <a
+                    className="hover:scale-125 transition-all duration-200 mx-3"
+                    href="https://web.whatsapp.com/"
+                    target="blank"
+                  >
                     <img src={whatApp} alt="whatApp" />
                   </a>
-                  <a className="hover:scale-125 transition-all duration-200" href="www.linkedin.com/in/sumit-chauhan-a40946242" target="blank">
-                    <img src={linkden} alt="linkden" />
+                  <a
+                    className="hover:scale-125 transition-all duration-200"
+                    href="https://www.linkedin.com/in/sumit-chouhan-384b842b9/"
+                    target="blank"
+                  >
+                    <img src={linkden} alt="linkdin" />
                   </a>
                 </div>
               </div>

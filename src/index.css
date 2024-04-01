@@ -2,7 +2,9 @@
 .ff_fira {
   font-family: "Fira code", "sans";
 }
-body{background-color: #282C33 !important;}
+body {
+  background-color: #282c33 !important;
+}
 
 .text_stroke {
   -webkit-text-stroke-width: 0.2px;
@@ -10,7 +12,6 @@ body{background-color: #282C33 !important;}
 ::-webkit-scrollbar {
   display: none !important;
 }
-
 
 .custom-cursor {
   position: fixed;
@@ -22,5 +23,5 @@ body{background-color: #282C33 !important;}
   mix-blend-mode: difference; /* Optional: Adjust blend mode for better visibility */
   z-index: 9999; /* Make sure it's above other elements */
   transform: translate(-50%, -50%);
-  transition: transform 0.2s ease-out;
+  transition: transform 2.3s linear;
 }

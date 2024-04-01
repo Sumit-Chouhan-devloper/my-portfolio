@@ -23,7 +23,7 @@ const Nav = () => {
           <div className="flex items-center justify-between">
             <Link
               to="/"
-              className="ff_fira text-white font-bold flex items-center gap-2"
+              className="ff_fira text-white font-bold text-xl md:text-2xl flex items-center gap-2"
             >
               <LogoIcon /> Sumit-Chouhan
             </Link>
