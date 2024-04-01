@@ -27,7 +27,7 @@ export const projects = [
     img: nrft,
     skill: "HTML Tailwind javascript",
     projectsName: "no risk no film",
-    servers: "Professionelle Filmproduktion",
+    servers: "Filmproduktion",
     btn: "Live",
     myLink: "https://norisknofilm.web.app/",
   },

@@ -74,8 +74,12 @@ const Projects = () => {
             <div className="flex flex-wrap justify-center md:justify-start project_cards">
               {projects.slice(0, 3).map((index) => (
                 <div className=" w-full max-w-[375px] md:w-6/12 lg:w-4/12 sm:px-3 mt-6">
-                  <div className=" border border-[#ABB2BF]">
-                    <img src={index.img} alt="map-img" className="w-full" />
+                  <div className="min-h-[400px] border border-[#ABB2BF]">
+                    <img
+                      src={index.img}
+                      alt="map-img"
+                      className="w-full min-h-[180px]"
+                    />
                     <p className=" ff_fira text-[#ABB2BF] py-2 px-2 border-b border-b-[#ABB2BF]">
                       {index.skill}
                     </p>
