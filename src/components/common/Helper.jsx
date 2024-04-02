@@ -82,7 +82,7 @@ export const projects = [
   {
     img: venveo,
     skill: "Html vite Tailwind",
-    projectsName: "pixel perfect",
+    projectsName: "venveo",
     servers: "Discord anti-crash bot",
     btn: "Live",
     myLink: "https://venveo-html-vite.web.app/",
